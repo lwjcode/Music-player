@@ -1,0 +1,82 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-image: url(../images/bg2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title{
+    color: cadetblue;
+    background-color: rgba(92, 141, 137, 0.3);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title h1{
+    width: 50%;
+    margin-left:50px;
+}
+
+#currentSong{
+    margin-left:20%;
+    width: 50%;
+}
+
+.mainbody{
+    display: flex;
+    flex-direction: row;
+    height:580px;
+    width:100%;
+}
+
+
+.showlyrics{
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(92, 141, 137, 0.3);
+    color:#fff;
+}
+
+#lyricslist{
+    height: 80%;
+    overflow-Y: scroll;
+}
+
+#audio{
+    width:600px;
+    height:100px;
+}
+
+.songlist{
+    width:40%;
+}
+
+.songlist ul{
+    margin: 20px;
+}
+
+.list li{
+    margin-left:20px;
+    margin-right:20px;
+    list-style: none;
+    line-height: 40px;
+    background: rgba(255, 255, 255, 0.3);
+    color:#fff;
+    margin-top:5px;
+    padding:0 20px;
+}
+
+.list li:hover{
+    background-color: rgba(92, 141, 137, 0.3);
+    cursor: pointer;
+}
+
+.list li:focus{
+    background-color:rgba(92, 141, 137, 0.3);
+}
+
+
